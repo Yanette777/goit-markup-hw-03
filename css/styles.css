@@ -192,7 +192,10 @@ button:focus {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.address a{
+  display: flex;
+  margin-top: 20px;
+}
 /* section work end */
 
 .button {
