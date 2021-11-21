@@ -58,6 +58,8 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logo-color {
   color: var(--title-text-color);
@@ -71,9 +73,15 @@ ul {
   align-items: center;
 }
 .site-nav-list-item {
+  display: flex;
+}
+.link {
   padding-top: 32px;
   padding-bottom: 32px;
-  display: flexbox;
+}
+.link-current {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .auth-nav-list {
   display: flex;
@@ -89,6 +97,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-info-size {
   text-decoration: none;
@@ -98,6 +108,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .auth-nav-list-item {
   margin-right: 50px;
@@ -182,6 +194,10 @@ button:focus {
   letter-spacing: 0.06em;
   color: var(--accent-color);
   text-transform: uppercase;
+  text-align: center;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .work-title {
   background-color: #2f303a;
@@ -192,10 +208,7 @@ button:focus {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.address a {
-  display: flex;
-  margin-top: 20px;
-}
+
 /* section work end */
 
 .button {
@@ -218,6 +231,7 @@ button:focus {
 .features-list {
   display: flex;
   align-items: center;
+  border-color: #ffffff;
 }
 .features-item {
   width: 270px;
@@ -302,6 +316,7 @@ img {
   color: var(--title-text-color);
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #fff;
 }
 .option-second {
   font-size: 16px;
@@ -331,7 +346,12 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  display: flex;
   margin-bottom: 9px;
+}
+.address {
+  margin-bottom: 9px;
+  margin-top: 20px;
 }
 .work-final-last {
   font-style: normal;
@@ -342,6 +362,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-bottom: 9px;
+  display: flex;
 }
 .work-final-last:last-child {
   margin-bottom: 0px;
@@ -470,6 +491,8 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 /* border colours SOLID COLOUR  
 .link-info-size{
