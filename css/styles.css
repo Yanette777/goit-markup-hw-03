@@ -58,8 +58,6 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .logo-color {
   color: var(--title-text-color);
@@ -350,7 +348,6 @@ img {
   margin-bottom: 9px;
 }
 .address {
-  margin-bottom: 9px;
   margin-top: 20px;
 }
 .work-final-last {
@@ -426,9 +423,11 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.buttons-list-features {
   margin-right: 8px;
 }
-.button:last-child {
+.buttons-list-features:last-child {
   margin-right: 0px;
 }
 .button-second {
@@ -465,7 +464,7 @@ img {
 .feauters-main-list {
   list-style: none;
   width: 370px;
-  padding-inline: 3px;
+  /* padding-inline: 3px; */
   margin-bottom: 30px;
   align-items: center;
 }
@@ -491,8 +490,8 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  padding-left: 23px;
-  padding-right: 23px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 /* border colours SOLID COLOUR  
 .link-info-size{
